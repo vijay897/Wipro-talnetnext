@@ -1,6 +1,18 @@
-class Test
-{
-	public static void main(String[] args){
-		System.out.print(args[0]+" tecnologies "+args[1]);
+public class Command{
+    public static void main(String[] args){
+		if(args.length !=2){
+			System.out.print("length is over loaded ");
+		return;
 	}
+        
+        String arg1 = args[0];
+        String arg2 = args[1];
+        
+        if("wipro".equalsIgnoreCase(arg1) && "banglore".equalsIgnoreCase(arg2)){
+            System.out.print("wipro tecnology banglore");
+		}
+            else{
+            System.out.print("invaild keys: ");
+        }
+    }
 }
