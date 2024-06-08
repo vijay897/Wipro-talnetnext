@@ -1,0 +1,14 @@
+public class CommandAdd{
+    public static void main(String[] args){
+        try{
+            int num1 = Integer.parseInt(args[0]);
+            int num2 = Integer.parseInt(args[1]);
+
+            int sum = num1+num2;
+
+            System.out.print("the sum of "+num1+" and "+num2+" is "+sum);
+        }catch(NumberFormatException e){
+                    System.out.print("not vaild");
+        }
+    }
+}
