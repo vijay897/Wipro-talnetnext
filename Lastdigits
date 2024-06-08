@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Lastdigit{
+    public static void main(String[] args){
+        Scanner in = new Scanner(System.in);
+        
+        System.out.print("enter the two numbers: ");
+        int a = in.nextInt();
+        int b = in.nextInt();
+        
+        boolean result = (a %10) == (b%10);
+        
+        System.out.print(result);
+    }
+}
