@@ -1,0 +1,7 @@
+public class CommandW {
+    public static void main(String[] args){
+        String arg1 = args[0];
+
+        System.out.print("Welcome "+ args[0]);
+    }
+}
